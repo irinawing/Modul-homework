@@ -7,7 +7,8 @@ i = 0
 value = my_list[i]
 
 while value >= 0:
-    print(value)
+    if value > 0:
+        print(value)
     if i < number_repeat:
         i = i + 1
         value = my_list[i]
