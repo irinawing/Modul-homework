@@ -11,5 +11,5 @@ for i in range(2,len(numbers)+1):
     else:
         primes.append(i)
 
-print('primes: ', primes)
-print('not primes: ', not_primes)
+print('Primes: ', primes)
+print('Not Primes: ', not_primes)
