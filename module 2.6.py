@@ -2,8 +2,8 @@ def single_root_words(root_word, *other_words):
     same_words = []
     for i in other_words:
         if root_word.lower().count(i.lower()) or i.lower().count(root_word.lower()):
-            # print(root_word.lower(),i.lower())----для проверки
-            # print(root_word.upper(), i.upper())----для проверки
+            #    print(i,root_word.lower(),i.lower())  #----для проверки
+            #   print(i,root_word.upper(), i.upper()) #----для проверки
             same_words.append(i)
     return same_words
 
