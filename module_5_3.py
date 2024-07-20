@@ -2,7 +2,6 @@ class House():
     def __init__(self, name, number_of_floors):
         self.name = name
         self.number_of_floors = number_of_floors
-
     def __len__(self):
         return self.number_of_floors
     def __str__(self):
@@ -10,7 +9,6 @@ class House():
 
     def __eq__(self, other):
         return self.number_of_floors == other.number_of_floors
-
 
     def __lt__(self, other):
         return self.number_of_floors < other.number_of_floors
