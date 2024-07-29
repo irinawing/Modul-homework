@@ -13,9 +13,9 @@ class Figure:
 
     def __is_valid_color(self, r, g, b):
         for val in [r, g, b]:
-            if isinstance(val, int) or 0 <= val <= 255:
-                return True
-        return False
+            if not isinstance(val, int) or 0 <= val <= 255:
+                return False
+        return True
 
     def set_color(self, r, g, b):
         if self.__is_valid_color(r, g, b):
@@ -73,7 +73,6 @@ class Cube(Figure):
 
 circle1 = Circle((200, 200, 100), 10) # (Цвет, стороны)
 cube1 = Cube((222, 35, 130), 6)
-
 
 # Проверка на изменение цветов:
 circle1.set_color(55, 66, 77) # Изменится
