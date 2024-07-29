@@ -40,6 +40,7 @@ class Figure:
         else:
             return self.__sides
 
+
 class Circle(Figure):
     sides_count = 1
 
