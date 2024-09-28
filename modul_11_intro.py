@@ -10,5 +10,5 @@ def introspection_info(obj):
     return info
 
 number_info = introspection_info(42)
-# print(number_info)
+print(number_info)
 pprint(number_info)
