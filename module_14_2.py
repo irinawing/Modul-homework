@@ -16,6 +16,7 @@ all_balances = cursor.fetchone()[0]
 print(all_balances / total_users)
 
 # Иной вариант подсчета среднего значения
+
 # cursor.execute('SELECT AVG(balance) FROM Users')
 # avg_balance=cursor.fetchone()[0]
 # print(avg_balance)
