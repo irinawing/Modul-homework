@@ -1,7 +1,5 @@
 import sqlite3
 
-print()     # Отступ
-
 connection = sqlite3.connect('not_telegram.db')
 
 cursor = connection.cursor()
