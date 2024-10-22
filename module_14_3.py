@@ -11,8 +11,8 @@ dp = Dispatcher(bot, storage=MemoryStorage())
 start_menu = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text='Информация'),
-            KeyboardButton(text='Рассчитать')
+            KeyboardButton(text='Информация'),KeyboardButton(text='Рассчитать'),
+            KeyboardButton(text='Купить')
         ]
     ], resize_keyboard=True
 )
